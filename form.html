@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakat Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>This is your form to <br>for donating</h1>
+        <h2>Instructions : </h2>
+        <ul>
+            <li>You haver to give actual information</li>
+            <li>Provide your personal email for reaching you in a good way</li>
+            <li>We don't take bkash or rocket this type of local banking. You can donate by visa or master card</li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <p>Name: <input type="text" name="name" placeholder="Write your name" id="name"></p>
+                <p>Email: <input type="text" name="email" placeholder="Write your email"> </p>
+                <fieldset>
+                    <legend>DONATION FORM</legend>
+                    <p>First name : <input type="text"></p>
+                    <p>Last name : <input type="text"></p>
+                    <p>Phone Number : <input type="number"></p>
+                    <p>Enter your email:<input type="email"></p>
+                    <p>Address:<br> 
+                        <textarea name="address" id="address" cols="20" rows="5"></textarea> 
+                    </p>
+                    <p>Father Name  : <input type="text"> </p>
+                    <p>Mother Name: <input type="text"> </p>
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="another">Another</option>
+                    </select>
+                        <br><br>
+                        <p>Which way do you want to pay : </p>
+                        <p>
+                            <label for="master-card">
+                            <input type="radio" name="payment-way" id="master-card">Master Card</label>                        
+                        </p>
+                        <p>
+                            <label for="visa-card">
+                            <input type="radio" name="payment-way" id="visa-card">Visa Card</label>                        
+                        </p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

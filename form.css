@@ -1,0 +1,28 @@
+body{
+    margin:0px;
+    margin-top: -21px;
+    
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/donation.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    filter: none;
+}
+header h1{
+    padding: 18rem;
+    font-size: 40px;
+    color: rgb(243, 236, 46);
+}
+header h2{
+    margin-top: -15rem;
+    margin-left: 18rem;
+    color: rgb(84, 254, 115);
+}
+header ul{
+    color: rgb(167, 244, 248);
+    margin-left: 18rem;
+    font-size: 20px;
+}
