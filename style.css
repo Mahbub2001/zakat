@@ -185,13 +185,15 @@ footer{
 .sign-up-section{
     background-color: darkcyan;
     height: 27rem;
+    padding: 2rem 0;
 }
 .sign-up-section div{
     margin: 0 15rem;
 }
 .footer-type{
-    padding: 10px 10rem;
-    margin: 5px 0;
+    height: 30px;
+    width: 40rem;
+    margin: 5px 0;   
 }
 .sign-up-section a{
     border: 1px solid black;
@@ -207,6 +209,7 @@ footer{
 }
 .main-footer h3{
   text-align: center;
+  padding: 25px;
   color: red;
 }
 .main-footer p{
