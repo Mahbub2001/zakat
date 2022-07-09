@@ -204,7 +204,7 @@ footer{
 }
 .main-footer{
     background-color: rgb(27, 24, 24);
-    margin: -19px;
+    margin:-19px 0;
     height: 15rem;
 }
 .main-footer h3{
