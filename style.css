@@ -1,7 +1,8 @@
 body{
     font-family: 'Arima', cursive;
     font-family: 'Poppins', sans-serif; 
-    margin: -27px 0;  
+    margin: -27px 0; 
+    background-color: #ffb700; 
 }
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/background.png);
@@ -22,8 +23,11 @@ header button{
     margin-left: 20rem;
     padding: 10px 20px;    
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    color: white;
     font-weight: 800;
+}
+#first-button{
+    text-decoration: none;
+    color: white;
 }
 button:active {
     background: #000000;
@@ -74,8 +78,8 @@ button:active {
 
 }
 .cardss{
-    background-color: rgb(255, 236, 236);
-    box-shadow: 5px 5px 1px 1px rgb(255, 94, 0);
+    background-color: rgb(162, 249, 255);
+    box-shadow: 5px 5px 1px 1px rgb(246, 246, 246);
     border-radius: 10px;
     margin: 20px;
     padding: 30px;
@@ -107,6 +111,9 @@ button:active {
     margin-right: 25rem;
 
 }
+.link-zakat{
+    background-color: rgb(245, 255, 194);
+}
 .zakat-pay-class{
     box-shadow: 1px 1px 1px 1px #888888;
     border-radius: 10px;
@@ -114,6 +121,7 @@ button:active {
     margin: 20px;
     padding: 30px;
     text-align: justify;
+    background-color: white;
 }
 .border-image{
     width: 380px;
@@ -128,7 +136,7 @@ button:active {
     transform: translate(-50%, -50%);
   }
   
-  a{
+  .link-zakat{
     display: block;
     width: 200px;
     height: 40px;
@@ -145,12 +153,12 @@ button:active {
     border-radius: 5px;
   }
   
-  a span{
+  .link-zakat span{
     position: relative;
     z-index: 2;
   }
   
-  a:after{
+  .link-zakat:after{
     position: absolute;
     content: "";
     top: 0;
@@ -161,11 +169,11 @@ button:active {
     transition: all .35s;
   }
   
-  a:hover{
+  .link-zakat:hover{
     color: #fff;
   }
   
-  a:hover:after{
+  .link-zakat:hover:after{
     width: 100%;
   }
 footer{
