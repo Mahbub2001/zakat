@@ -160,6 +160,7 @@ button:active {
   
 .link-zakat:after{
     position: absolute;
+    border-radius: 5px;
     content: "";
     top: 0;
     left: 0;
